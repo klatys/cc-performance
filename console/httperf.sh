@@ -1,3 +1,5 @@
+sudo apt-get install httperf
+
 httperf --help
 httperf --server www.glami.cz --port 80 --num-conns 10 --rate 1
 
